@@ -146,7 +146,7 @@ if (drupal_is_front_page()) {
 <section class="section product">
 	<div class="container">
 		<div class="image-wrapper">
-			<img src="images/product-shot.png" width="100%" alt="product" />
+			<img src="<?php print $directory;?>/images/product-shot.png" width="100%" alt="product" />
 		</div>
 		<h2 class="section--title">Mendeley Reference Manager</h2>
 		<p class="subheading">A free cross-platform application to help you manage your research</p>
@@ -264,7 +264,7 @@ if (drupal_is_front_page()) {
 						<div class="grid--row--column grid--row--column-6">
 							<div class="endorsement endorsement-dark">
 								<div class="headshot-wrapper">
-									<img src="images/profile-thabo.png" width="100%" alt="Thabo Mavundza" />
+									<img src="<?php print $directory;?>/images/profile-thabo.png" width="100%" alt="Thabo Mavundza" />
 								</div>
 								<p class="endorsement--quote">"Using Mendeley, I have discovered so many experts in my field of research interest. This has helped me to clearly identify gaps within my findings and make profound recommendations to fellow researchers."</p>
 								<div class="endorsement--bio">
@@ -276,7 +276,7 @@ if (drupal_is_front_page()) {
 						<div class="grid--row--column grid--row--column-6">
 							<div class="endorsement">
 								<div class="headshot-wrapper">
-									<img src="images/profile-jamie.png" width="100%" alt="Jamie Bogle" />
+									<img src="<?php print $directory;?>/images/profile-jamie.png" width="100%" alt="Jamie Bogle" />
 								</div>
 								<p class="endorsement--quote">"I work with a group of researchers in my topic area online and with Mendeley we are able to share resources quickly and hold group discussions with participants from all over the world."</p>
 								<div class="endorsement--bio">
@@ -295,7 +295,7 @@ if (drupal_is_front_page()) {
 <section class="section section-secondary download">
 	<div class="container">
 		<div class="image-wrapper">
-			<img src="images/download.png" width="100%" alt="download devices" />
+			<img src="<?php print $directory;?>/images/download.png" width="100%" alt="download devices" />
 		</div>
 		<h2 class="section--title section--title-alternate">Join millions of researchers using Mendeley</h2>
 		<a href="https://www.mendeley.com/download-mendeley-desktop/" class="nav--item btn btn-large">
@@ -303,16 +303,16 @@ if (drupal_is_front_page()) {
 		</a>
 		<div class="operating-systems">
 			<a href="http://ad.apps.fm/5GZMO4-8ru_PzJdqOXY2VF5KLoEjTszcQMJsV6-2VnHFDLXitVHB6BlL95nuoNYfX8CxpiCxdTjfi4OpH9y6n_i2h21HIaoPKV7O1lz6CvLPO84u9Xybgq8uUST8gwFd4uZl085zDwqZmpanJ_jONw" class="os-item android">
-				<img src="images/android.png" width="100%" title="Andorid" alt="Android" />
+				<img src="<?php print $directory;?>/images/android.png" width="100%" title="Andorid" alt="Android" />
 			</a>
 			<a href="https://itunes.apple.com/gb/app/mendeley/id380669300?mt=8" class="os-item apple">
-				<img src="images/apple.png" width="100%" title="Apple" alt="Apple" />
+				<img src="<?php print $directory;?>/images/apple.png" width="100%" title="Apple" alt="Apple" />
 			</a>
 			<a href="https://www.mendeley.com/download-mendeley-desktop/" class="os-item windows">
-				<img src="images/windows.png" width="100%" title="Windows" alt="Windows" />
+				<img src="<?php print $directory;?>/images/windows.png" width="100%" title="Windows" alt="Windows" />
 			</a>
 			<a href="https://www.mendeley.com/download-mendeley-desktop/" class="os-item linux">
-				<img src="images/linux.png" width="100%" title="Linux" alt="Linux" />
+				<img src="<?php print $directory;?>/images/linux.png" width="100%" title="Linux" alt="Linux" />
 			</a>
 		</div>
 	</div>
