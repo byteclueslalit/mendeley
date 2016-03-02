@@ -317,42 +317,8 @@ if (drupal_is_front_page()) {
 		</div>
 	</div>
 </section>
-
-
 <footer class="footer">
-	<a href="/" class="footer--nav footer--nav-primary modal-open">
-
-		<div class="logo-wrapper nav--item">
-			<img src="images/mendeley-dark.png" width="100%" alt="Mendeley" />
-		</div>
-
-		<p class="nav--item">
-			About us
-		</p>
-		<p class="nav--item">
-			Careers
-		</p>
-		<p class="nav--item">
-			Mendeley API
-		</p>
-		<p class="nav--item">
-			Advisors
-		</p>
-	</a>
-	<a href="/" class="footer--nav footer--nav-secondary modal-open">
-		<p class="nav--item">
-			&copy; 2015 Mendeley Ltd. All rights reserved.
-		</p>
-		<p class="nav--item">
-			Copyright
-		</p>
-		<p class="nav--item">
-			Terms and conditions
-		</p>
-		<p class="nav--item">
-			Privacy policy
-		</p>
-	</a>
+	<?php print render($page['footer']); ?>
 </footer>
 <div class="modal">
 	We're updating the Mendeley.com website and we're excited to show you this homepage preview, but the section you're clicking isn't ready yet.
