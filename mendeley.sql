@@ -277,6 +277,14 @@ CREATE TABLE IF NOT EXISTS `cache_field` (
   `serialized` smallint(6) NOT NULL DEFAULT '0' COMMENT 'A flag to indicate whether content is serialized (1) or not (0).'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Cache table for the Field module to store already built...';
 
+--
+-- Dumping data for table `cache_field`
+--
+
+INSERT INTO `cache_field` (`cid`, `data`, `expire`, `created`, `serialized`) VALUES
+('field:user:1', 0x613a303a7b7d, 0, 1456898964, 1),
+('field_info:bundle:user:user', 0x613a323a7b733a393a22696e7374616e636573223b613a303a7b7d733a363a226669656c6473223b613a303a7b7d7d, 0, 1456898964, 1);
+
 -- --------------------------------------------------------
 
 --
