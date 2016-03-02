@@ -1,0 +1,19 @@
+name = Mendeley
+description = Custom theme for my site
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[banner] = Banner
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/screen.css
+stylesheets[all][] = css/vendor/owl.carousel.css
+stylesheets[all][] = css/vendor/owl.theme.default.min.css
+
+scripts[all][] = scripts/vendor/jquery.min.js
+scripts[all][] = scripts/vendor/owl.carousel.min.js
+scripts[all][] = scripts/main.js
+scripts[all][] = scripts/vendor/hotjar.js
+
