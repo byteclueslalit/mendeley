@@ -318,7 +318,7 @@ if (drupal_is_front_page()) {
 	</div>
 </section>
 <footer class="footer">
-	<?php print render($page['footer']); ?>
+	<?php print render($page['footer']['views_footer-block']); ?>
 </footer>
 <div class="modal">
 	We're updating the Mendeley.com website and we're excited to show you this homepage preview, but the section you're clicking isn't ready yet.
