@@ -283,9 +283,9 @@ button {
     background-size: cover;
     background-repeat: no-repeat; }
   .hero.hero3 {
-    background: #095A75 url('../images/hero-laptop-2.jpg') top right;
+    /*background: #095A75 url('../images/hero-laptop-2.jpg') top right;
     background-size: 1440px;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;*/ }
   .hero .container {
     padding: 0 60px; }
   .hero .logo-wrapper {
@@ -396,17 +396,17 @@ button {
       .user-segments .user-tabs .tab.active {
         display: block; }
       .user-segments .user-tabs .tab-undergrads .tab--image {
-        background: url('../images/user-segment-students.jpg') center;
-        background-size: 500px; }
+        /*background: url('../images/user-segment-students.jpg') center;
+        background-size: 500px;*/ }
       .user-segments .user-tabs .tab-postdocs .tab--image {
-        background: url('../images/user-segment-postdoc.jpg') center left;
-        background-size: 627px; }
+        /*background: url('../images/user-segment-postdoc.jpg') center left;
+        background-size: 627px;*/ }
       .user-segments .user-tabs .tab-professors .tab--image {
-        background: url('../images/user-segment-professors.jpg') center right;
-        background-size: cover; }
+        /*background: url('../images/user-segment-professors.jpg') center right;
+        background-size: cover;*/ }
       .user-segments .user-tabs .tab-librarians .tab--image {
-        background: url('../images/user-segment-librarians.jpg') center left;
-        background-size: 608px; }
+        /*background: url('../images/user-segment-librarians.jpg') center left;
+        background-size: 608px;*/ }
       .user-segments .user-tabs .tab--image {
         display: block;
         width: 100%;
@@ -485,11 +485,11 @@ button {
       font-size: 18px;
       color: #505050; }
   .features .feature-search .feature--image {
-    background: url('../images/iconset/icon-blurb-search.png') center; }
+    /*background: url('../images/iconset/icon-blurb-search.png') center;*/ }
   .features .feature-access .feature--image {
-    background: url('../images/iconset/icon-blurb-cloud.png') center; }
+    /*background: url('../images/iconset/icon-blurb-cloud.png') center;*/ }
   .features .feature-groups .feature--image {
-    background: url('../images/iconset/icon-blurb-group.png') center; }
+    /*background: url('../images/iconset/icon-blurb-group.png') center;*/ }
 
 .brief {
   padding: 80px 0; }
@@ -518,14 +518,14 @@ button {
       background-repeat: no-repeat !important;
       background-size: contain; }
   .brief .blurb1 .image-wrapper {
-    background: url('../images/blurb1.jpg') top left;
-    background-size: cover; }
+    /*background: url('../images/blurb1.jpg') top left;
+    background-size: cover;*/ }
   .brief .blurb2 .image-wrapper {
-    background: url('../images/blurb2.jpg') top left;
-    background-size: contain; }
+    /*background: url('../images/blurb2.jpg') top left;
+    background-size: contain;*/ }
   .brief .blurb3 .image-wrapper {
-    background: url('../images/blurb3.jpg') top left;
-    background-size: cover; }
+    /*background: url('../images/blurb3.jpg') top left;
+    background-size: cover;*/ }
 
 .endorsements {
   padding: 80px 0;

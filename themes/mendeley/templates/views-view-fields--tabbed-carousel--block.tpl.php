@@ -43,7 +43,7 @@ $field_tabbed_carousel_tile=field_get_items('node',$node,'field_tabbed_carousel_
 	<div class="tab <?php echo $class; echo $active;?>">
 		<div class="grid--row">
 			<div class="grid--row--column grid--row--column-6">
-				<div class=" tab--image">
+				<div class=" tab--image" style="background: url('<?php echo file_create_url($item->field_image['und'][0]['uri']);?>') center;background-size: cover;">
 				</div>
 			</div>
 			<div class="grid--row--column grid--row--column-6">

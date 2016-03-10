@@ -19,7 +19,7 @@ $field_feature_block_tile=field_get_items('node',$node,'field_feature_block_tile
 			?>
 			<div class="grid--row--column grid--row--column-4">
 				<div class="feature feature-<?php echo $class;?>">
-					<div class="feature--image">
+					<div class="feature--image" style="background: url('<?php echo file_create_url($item->field_image['und'][0]['uri']); ?>') center;">
 					</div>
 					<div class="feature--details">
 						<p class="title"><?php print $item->field_title['und'][0]['value']; ?></p>

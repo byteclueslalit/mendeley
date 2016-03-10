@@ -19,8 +19,8 @@ $field_feature_blocks_tile=field_get_items('node',$node,'field_feature_blocks_ti
 							</div>
 						</div>
 						<div class="grid--row--column grid--row--column-5">
-							<div class="image-wrapper">
-								&nbsp;
+							<div class="image-wrapper" style="background: url('<?php echo file_create_url($item->field_image['und'][0]['uri']); ?>') top left;background-size: cover;">
+							&nbsp;
 							</div>
 						</div>
 					</div>
@@ -29,7 +29,7 @@ $field_feature_blocks_tile=field_get_items('node',$node,'field_feature_blocks_ti
 				<div class="grid--row">
 					<div class="blurb blurb<?php echo $count;?>">
 						<div class="grid--row--column grid--row--column-5">
-							<div class="image-wrapper">
+							<div class="image-wrapper" style="background: url('<?php echo file_create_url($item->field_image['und'][0]['uri']); ?>') top left;background-size: contain;">
 								&nbsp;
 							</div>
 						</div>
