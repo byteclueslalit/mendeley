@@ -10,8 +10,6 @@ engine = phptemplate
 
 regions[header] = Header
 
-regions[banner] = Banner
-
 regions[content] = Content
 
 regions[footer] = Footer
