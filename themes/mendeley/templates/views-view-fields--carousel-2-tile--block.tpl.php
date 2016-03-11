@@ -1,6 +1,6 @@
 <?php //echo "<pre>";print_r($fields);die;?>
 <div class="container">
-<h2 class="section--title"><?php echo $fields['title']->handler->original_value; ?></h2>
+<?php /*<h2 class="section--title"><?php echo $fields['title']->handler->original_value; ?></h2>*/ ?>
 	<div class="carousel-nav"></div>
 	<div class="carousel">
 		<div class="item">

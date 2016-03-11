@@ -795,3 +795,23 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
     max-width: 66.6666666667%; }
   .grid--row--column-10 {
     max-width: 83.3333333333%; } }
+.owl-wrapper-outer{overflow:hidden;}
+.setcrousel .owl-item .item-odd{background:#505050;color:#fff;padding:20px 20px 20px 20px;height:300px}
+.setcrousel .owl-item .item-even{background:#F5F5F5;padding:20px 20px 20px 20px;height:300px}
+.setcrousel .owl-item .item-odd .field-item a{color:#fff;text-decoration:none;}
+.setcrousel .owl-item .item-even .field-item a{color:#000;text-decoration:none;}
+.field-name-field-user-name  .field-items  div{padding-top: 20px;}
+.owl-item{font-size:20px}
+.carousel .item {font-size: 36px;
+    font-family: 'NexusBold', arial, sans-serif;
+    color: #000814;}
+	
+.owl-buttons{ font-size: 8pt;
+    font-family: tahoma;
+    margin-top: 1px;
+    margin-right: 2px;
+    position: absolute;
+    top: -36px;
+    right: 0;}
+
+.node{display:none;}
