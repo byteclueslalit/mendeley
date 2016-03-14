@@ -1,10 +1,12 @@
-<div class="container">
-	<div class="carousel-nav"></div>
-	<div class="carousel">
-		<div class="item">
-		<?php foreach ($fields as $id => $field): ?>
-			<?php print $field->content; ?>
-		<?php endforeach; ?>
+<div class="carousel-2-tile">
+	<div class="container">
+		<div class="carousel-nav"></div>
+		<div class="carousel">
+			<div class="item">
+			<?php foreach ($fields as $id => $field): ?>
+				<?php print $field->content; ?>
+			<?php endforeach; ?>
+			</div>
 		</div>
 	</div>
 </div>

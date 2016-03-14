@@ -232,7 +232,7 @@ button {
       position: relative;
       display: inline-block;
       vertical-align: middle;
-      margin: 0 15px;
+      margin: 0 8px;
       color: #FFFFFF; }
       .header .nav--item.btn {
         border: 1px solid #44C6F4;
@@ -796,8 +796,8 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
   .grid--row--column-10 {
     max-width: 83.3333333333%; } }
 .owl-wrapper-outer{overflow:hidden;}
-.setcrousel .owl-item .item-odd{background:#505050;color:#fff;padding:20px 20px 20px 20px;height:350px}
-.setcrousel .owl-item .item-even{background:#F5F5F5;padding:20px 20px 20px 20px;height:350px}
+.setcrousel .owl-item .item-odd{background:#505050;color:#fff;height:350px}
+.setcrousel .owl-item .item-even{background:#F5F5F5;height:350px}
 .setcrousel .owl-item .item-odd .field-item a{color:#fff;text-decoration:none;}
 .setcrousel .owl-item .item-even .field-item a{color:#000;text-decoration:none;}
 .field-name-field-user-name  .field-items  div{padding-top: 20px;}
@@ -811,36 +811,104 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
     margin-top: 1px;
     margin-right: 2px;
     position: absolute;
-    top: -36px;
-    right: 0;}
-
+    right: 0;
+	top: -90px;
+}
 .node{display:none;}
 
 /*------owl carousel css modified--------by Ankita------*/
-.field-name-field-image .field-items .field-item{
+.carousel-2-tile .field-name-field-image .field-items .field-item{
 	margin: 0 auto;
     width: 70px;
 	padding-top:20px;
 }
-.field-name-field-image .field-items .field-item img{
+.carousel-2-tile .field-name-field-image .field-items .field-item img{
 	width:100%;
 	height:auto;
 }
-.field-name-field-sub-copy .field-items .field-item{
+.carousel-2-tile .field-name-field-sub-copy .field-items .field-item{
 	font-size: 20px;
     line-height: 25px;
     padding: 20px 0;
 	width:390px;
 }
-.field-name-field-user-name .field-items .field-item{
+.carousel-2-tile .field-name-field-user-name .field-items .field-item{
 	font-family: "NexusBold",arial,sans-serif;
     font-size: 20px;
     padding: 10px;
 	line-height: 20px;
 	font-weight: bold;
 }
-.field-name-field-user-details .field-items .field-item{
+.carousel-2-tile .field-name-field-user-details .field-items .field-item{
 	font-size: 14px;
 	line-height: 20px;
+}
+.item-list{
+	margin-top:50px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+	background:none;
+	border:1px solid #869791;
+	color:none;
+	opacity: 1;
+}
+.carousel-1-tile{
+	background:black;
+	width:100%;
+}
+.carousel-2-tile{
+	background:white;
+	width:100%;
+}
+.carousel-1-tile a, .carousel-1-tile a:hover{
+	font-size:30px;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+}
+.field-label{
+	display:none;
+}
+.sub-tile{
+	background:white;
+	width:180px;
+	height:210px;
+	top:115px;
+	position:absolute;
+	left:25px;
+}
+.carousel-1-tile .field-name-field-background-image .field-items .field-item img{
+	height:350px;
+}
+.carousel-1-tile .field-name-field-image .field-items .field-item img{
+	height: auto;
+    left: 40px;
+    position: absolute;
+    top: 140px;
+    width: 30px;
+}
+.carousel-1-tile .field-name-field-user-name .field-items .field-item a{
+	color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    left: 85px;
+    position: absolute;
+    top: 135px;
+}
+.carousel-1-tile .field-name-field-user-details .field-items .field-item{
+	color: #000;
+    font-size: 10px;
+    left: 85px;
+    position: absolute;
+    top: 155px;
+}
+.carousel-1-tile .field-name-field-sub-copy .field-items .field-item{
+	color: #000;
+    font-size: 14px;
+    left: 35px;
+    position: absolute;
+    top: 190px;
+	width:155px;
+	text-align:left;
 }
 /*------owl carousel css modified--------by Ankita------*/
