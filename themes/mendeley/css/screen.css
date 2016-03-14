@@ -910,5 +910,7 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
     top: 190px;
 	width:155px;
 	text-align:left;
+	height:120px;
+	overflow:hidden;
 }
 /*------owl carousel css modified--------by Ankita------*/
