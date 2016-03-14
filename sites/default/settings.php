@@ -212,7 +212,19 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases = array('default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'drupal_test_db',
+      'username' => 'testuser',
+      'password' => 'test123',
+      'host' => 'drupaldb.cq2lee14jn3y.us-east-1.rds.amazonaws.com',
+      'port' => '3306',
+      'driver' => 'mysql', 
+    ),
+  ),
+);
 
 /**
  * Access control for update.php script.

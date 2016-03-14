@@ -815,3 +815,32 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
     right: 0;}
 
 .node{display:none;}
+
+/*------owl carousel css modified--------by Ankita------*/
+.field-name-field-image .field-items .field-item{
+	margin: 0 auto;
+    width: 70px;
+	padding-top:20px;
+}
+.field-name-field-image .field-items .field-item img{
+	width:100%;
+	height:auto;
+}
+.field-name-field-sub-copy .field-items .field-item{
+	font-size: 20px;
+    line-height: 25px;
+    padding: 20px 0;
+	width:390px;
+}
+.field-name-field-user-name .field-items .field-item{
+	font-family: "NexusBold",arial,sans-serif;
+    font-size: 20px;
+    padding: 10px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.field-name-field-user-details .field-items .field-item{
+	font-size: 14px;
+	line-height: 20px;
+}
+/*------owl carousel css modified--------by Ankita------*/
