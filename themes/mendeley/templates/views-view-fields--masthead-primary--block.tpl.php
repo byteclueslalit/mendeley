@@ -21,7 +21,7 @@ $count = count($field_primary_links);
 	?>
 </nav>
 <nav class="nav nav-secondary">
-	<a href="/"><img src="<?php echo $directory."/images/iconset/icon-search-white.png";?>" width="16" style="float: left;margin: 5px;"/></a>
+	<a href="/"><img src="<?php echo base_path().$directory."/images/iconset/icon-search-white.png";?>" width="16" style="float: left;margin: 5px;"/></a>
 	<?php if($count>4):
 		for($i=4;$i<$count;$i++){
 			if(stristr($field_primary_links[$i]['title'],'Sign in')==TRUE){

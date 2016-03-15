@@ -19,7 +19,6 @@ regions[footer] = Footer
 stylesheets[all][] = css/screen.css
 stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/vendor/owl.carousel.css
-
 stylesheets[all][] = css/vendor/owl.theme.default.min.css
 
 

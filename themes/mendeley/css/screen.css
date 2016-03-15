@@ -817,10 +817,6 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
 }
 /*-----------carousel 2 modified------------by Sunil-----------*/
 
-/*-----------Node content hide on front page------------by Ankita-----------*/
-.node{display:none;}
-/*-----------Node content hide------------by Ankita-----------*/
-
 /*------------carousel 1 and 2 modified------------by Ankita---------*/
 .carousel-2-tile .field-name-field-image .field-items .field-item{
 	margin: 0 auto;

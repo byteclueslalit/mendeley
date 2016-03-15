@@ -1,12 +1,18 @@
 <header class="header">
-<?php print render($page['header']);?>
+	<?php print render($page['header']);?>
 </header>
 
-<?php print render($page['content']);?>
+<?php
+	if(drupal_is_front_page()){
+		if (in_array("system_main", $page['content'])) {
+			$page['content']['system_main']="";
+		}
+	}
+	print render($page['content']);
+?>
 
 <footer class="footer">
-	<?php print render($page['footer']['views_footer-block']); ?>
-	<?php print render($page['footer']['user_login']); ?>
+	<?php print render($page['footer']); ?>
 </footer>
 <div class="modal">
 	We're updating the Mendeley.com website and we're excited to show you this homepage preview, but the section you're clicking isn't ready yet.
