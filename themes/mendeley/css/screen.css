@@ -795,6 +795,7 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
     max-width: 66.6666666667%; }
   .grid--row--column-10 {
     max-width: 83.3333333333%; } }
+/*-----------carousel 2 modified------------by Sunil-----------*/
 .owl-wrapper-outer{overflow:hidden;}
 .setcrousel .owl-item .item-odd{background:#505050;color:#fff;height:350px}
 .setcrousel .owl-item .item-even{background:#F5F5F5;height:350px}
@@ -814,9 +815,13 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
     right: 0;
 	top: -90px;
 }
-.node{display:none;}
+/*-----------carousel 2 modified------------by Sunil-----------*/
 
-/*------owl carousel css modified--------by Ankita------*/
+/*-----------Node content hide on front page------------by Ankita-----------*/
+.node{display:none;}
+/*-----------Node content hide------------by Ankita-----------*/
+
+/*------------carousel 1 and 2 modified------------by Ankita---------*/
 .carousel-2-tile .field-name-field-image .field-items .field-item{
 	margin: 0 auto;
     width: 70px;
@@ -829,8 +834,8 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
 .carousel-2-tile .field-name-field-sub-copy .field-items .field-item{
 	font-size: 20px;
     line-height: 25px;
-    padding: 20px 0;
-	width:390px;
+    padding: 20px;
+	width:443px;
 }
 .carousel-2-tile .field-name-field-user-name .field-items .field-item{
 	font-family: "NexusBold",arial,sans-serif;
@@ -913,4 +918,4 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
 	height:120px;
 	overflow:hidden;
 }
-/*------owl carousel css modified--------by Ankita------*/
+/*------carousel 1 and 2 modified--------by Ankita------*/
