@@ -51,21 +51,15 @@ $field_tabbed_carousel_tile=field_get_items('node',$node,'field_tabbed_carousel_
 					<p class="title"><?php echo $item->field_title['und'][0]['value'];?></p>
 					<ul class="feature-list">
 						<?php 
-							$val = 1;
-							foreach($item->field_tabbed_sub_copy['und'] as $sub_copy){ 
-							if($val==1){
-								$feature = "feature-search";
-							} else if($val==2) {
-								$feature = "feature-follow";
-							} else if($val==3) {
-								$feature = "feature-organise";
+						foreach($item->field_tabbed_carousel_copy['und'] as $copyid) { 
+							$copy = field_collection_field_get_entity($copyid);
+						?>
+						<li class="feature common-feature" style="background: rgba(0, 0, 0, 0) url('<?php echo file_create_url($copy->field_image['und'][0]['uri']);?>') repeat scroll left center;">
+							<?php echo $copy->field_sub_copy['und'][0]['value'];?>
+						</li>
+						<?php
 							}
-							?>
-							<li class="feature <?php echo $feature;?>"><?php echo $sub_copy['value'];?></li>
-							<?php
-							$val++;
-							} 
-							?>
+						?>
 					</ul>
 				</div>
 			</div>

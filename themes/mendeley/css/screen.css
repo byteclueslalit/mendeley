@@ -914,4 +914,15 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
 	height:120px;
 	overflow:hidden;
 }
+.carousel-1-tile .carousel .item{
+	padding:40px 0;
+}
+.item-list ul li{
+	margin: 0 1em 0.25em;
+}
+.common-feature{
+	background-repeat: no-repeat !important;
+	background-size: 26px auto !important;
+	padding: 20px 30px 20px 60px;
+}
 /*------carousel 1 and 2 modified--------by Ankita------*/
