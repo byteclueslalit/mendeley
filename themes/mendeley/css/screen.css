@@ -926,3 +926,65 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
 	padding: 20px 30px 20px 60px;
 }
 /*------carousel 1 and 2 modified--------by Ankita------*/
+/*------Masthead Primary--------by Ankita------*/
+.header .nav-primary .nav--item{
+	margin:5px 15px;padding:0;
+}
+.header .nav-secondary img{
+	float: left;margin: 5px;
+}
+/*------Masthead Primary--------by Ankita------*/
+/*------Masthead Primary Dark--------by Ankita------*/
+.header .dark .nav-item-dark{
+	color:#737373;font-size: 13px;font-weight: bold;
+}
+.header .dark .nav--item.signin-icon {
+	position: relative;padding-right: 25px; 
+}
+.header .dark .nav--item.signin-icon:after {
+  position: absolute;right: 0;top: 5px;
+  content: '';display: block;
+  width: 15px;height: 15px;
+  background: url('../images/iconset/icon-user-dark.png') top right;background-size: 14px;background-repeat: no-repeat; 
+}
+.header .dark .nav--item.btn {
+	border: 1px solid #737373;
+	font-size: 14px; 
+}
+.header .dark .nav--item.btn:link, .header .dark .nav--item.btn:active, .header .dark .nav--item.btn:visited {
+  color: #737373; 
+}
+.header .dark .nav--item.btn:hover {
+  background: #ffffff; 
+}
+/*------Masthead Primary Dark--------by Ankita------*/
+/*------Page Not Found--------by Ankita------*/
+.page-not-found .div-primary{
+	background:#F4F4F4;padding: 100px 270px;
+}
+.page-not-found .div-secondary .div-title{
+	width:750px;text-align:center;padding: 70px 106px 20px;margin: 0 130px;
+}
+.page-not-found .div-secondary .div-cta{
+	border: 1px solid #43c3f0;padding: 10px;text-align: center;margin: 0 435px 100px;width: 160px;
+}
+.page-not-found .div-secondary .div-cta a{
+	color:#000;font-size: 13px;font-weight: bold;text-decoration: none;
+}
+/*------Page Not Found--------by Ankita------*/
+/*------Masthead Secondary--------by Ankita------*/
+.nav-sub-menu{
+	float:left;width:100%;font-size:12px;
+}
+.nav-sub-menu .section-border{
+	margin:5px 0;
+}
+/*------Masthead Secondary--------by Ankita------*/
+/*------Footer--------by Ankita------*/
+.footer--nav-primary .social-links{
+	width:168px;float:right;
+}
+.footer--nav-primary .social-links a{
+	float:left;padding:0 10px;
+}
+/*------Footer--------by Ankita------*/

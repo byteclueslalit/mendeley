@@ -7,7 +7,7 @@ $field_social_icons=field_get_items('node',$node,'field_social_icons');
 $count_footer_links = count($field_footer_links);
 ?> 
 <div class="footer--nav-primary">
-	<a href="http://www.mendeley.com" class="footer--nav modal-open">
+	<a href="/" class="footer--nav modal-open">
 		<div class="logo-wrapper nav--item">
 			<img src="<?php echo file_create_url($field_footer_logo[0]['uri']);?>" width="100%" alt="<?php echo $field_footer_logo[0]['alt'];?>" />
 		</div>
@@ -22,17 +22,17 @@ $count_footer_links = count($field_footer_links);
 		</a>
 	<?php } 
 	} ?>
-	<div style="width:168px;float:right;">
+	<div class="social-links">
 		<?php foreach($field_social_icons as $itemid) { 
 				$item = field_collection_field_get_entity($itemid);?>
-			<a href="<?php echo $item->field_cta['und'][0]['url']?>" style="float:left;padding:0 10px;">
+			<a href="<?php echo $item->field_cta['und'][0]['url']?>">
 				<img src="<?php echo file_create_url($item->field_image['und'][0]['uri']);?>" width="20px" height="24px" alt="<?php echo $item->field_image['und'][0]['alt'];?>" title="<?php echo $item->field_image['und'][0]['title'];?>" />
 			</a>
 		<?php } ?>
 	</div>
 </div>
 <div class="footer--nav-secondary">
-	<a href="http://www.mendeley.com" class="footer--nav modal-open">
+	<a href="/" class="footer--nav modal-open">
 		<p class="nav--item"><?php echo $field_copyright_text[0]['value'];?></p>
 	</a>
 	<?php if($count_footer_links>4){
