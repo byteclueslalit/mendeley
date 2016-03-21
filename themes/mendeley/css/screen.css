@@ -988,3 +988,127 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
 	float:left;padding:0 10px;
 }
 /*------Footer--------by Ankita------*/
+/*-----------Attend Event----by Ankita------*/
+.node{
+	margin:140px;
+}
+.node .node-title{
+	text-align:center;
+}
+.node .event{
+	height:274px;margin:40px 0;
+}
+.node .event .event-left{
+	float:left;width:350px;
+}
+.node .event .event-right{
+	background:#007498;height:100%;
+}
+.node .event .event-right .field-name-field-event-date{
+	color: #fff;
+    font-family: "Nexus",arial,sans-serif;
+    font-size: 11px;
+    left: 510px;
+    position: absolute;
+    top: 315px;
+    width: 160px;
+}
+.node .event .event-right .field-name-field-event-date span{
+	padding:5px;
+}
+.node .event .event-right .field-name-field-event-location{
+	color: #fff;
+    float: right;
+    font-family: "Nexus",arial,sans-serif;
+    font-size: 11px;
+    left: 765px;
+    position: absolute;
+    top: 315px;
+    width: 100px;
+}
+.node .event .event-right .field-name-field-event-title{
+	color:#fff;
+	font-family: "Nexus",arial,sans-serif;
+	left: 510px;
+    position: absolute;
+    top: 345px;
+}
+.node .event .event-right .field-name-field-speaker-image{
+	left: 510px;
+    position: absolute;
+    top: 380px;
+}
+.node .event .event-right .field-name-field-speaker-name{
+    font-size: 10px;
+    left: 550px;
+    position: absolute;
+    top: 375px;
+	color:#fff;
+}
+.node .event .event-right .field-name-field-speaker-name a{
+    text-decoration:none;
+	color:#fff;
+	font-size: 12px;
+	top:10px;
+}
+.node .event .event-right .field-name-field-speaker-name .speaker-name-label{
+	padding:5px 0;
+}
+.node .event .event-right .field-name-field-event-institution{
+	padding:5px 0;
+	color:#fff;
+	left: 510px;
+    position: absolute;
+    top: 425px;
+	font-size: 11px;
+	width: 175px;
+}
+.node .event .event-right .field-name-field-event-time{
+	padding:5px 0;
+	color:#fff;
+	left: 510px;
+    position: absolute;
+    top: 450px;
+	font-size: 11px;
+	width: 175px;
+}
+.node .event .event-right .field-name-field-event-details-link{
+	padding:5px 0;
+	left: 510px;
+    position: absolute;
+    top: 500px;
+	font-size: 12px;
+}
+.node .event .event-right .field-name-field-event-details-link a{
+	text-decoration:none;
+	color:#fff;
+}
+.div-form{
+	margin-top:90px;
+}
+.form-title{
+	color: #000814;
+    font-family: "NexusBold",arial,sans-serif;
+    font-size: 24px;
+}
+#attend-event-form{
+	text-align:center;
+}
+#attend-event-form .form-text{
+	color:#00607D;
+	padding:5px;
+	border-bottom:1px solid #D2D2D2;
+}
+#attend-event-form .form-submit{
+	color:#fff;
+	margin:25px 0;
+	padding:5px;
+	background:#00607D;
+	font-size:13px;
+}
+/*-----------Attend Event----by Ankita------*/
+
+
+
+
+

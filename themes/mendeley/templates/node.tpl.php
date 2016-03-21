@@ -1,3 +1,5 @@
 <?php if(!drupal_is_front_page()):?>
-<?php print render($content); ?>
+<div class="node">
+	<?php print render($content); ?>
+</div>
 <?php endif;?>

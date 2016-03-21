@@ -1,0 +1,3 @@
+name = attend_event
+description = This module creates a form using Drupal.
+core = 7.x
