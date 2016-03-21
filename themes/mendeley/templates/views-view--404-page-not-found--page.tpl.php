@@ -1,6 +1,6 @@
 <div class="page-not-found">
 	<div class="div-primary">
-		<img src="<?php echo base_path().$directory."/images/404.png";?>" width="500"/>
+		<img src="<?php echo base_path().$directory."/images/404.PNG";?>" width="500"/>
 	</div>
 	<div class="div-secondary">
 		<div class="div-title">

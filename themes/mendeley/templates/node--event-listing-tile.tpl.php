@@ -5,7 +5,7 @@
 	</div>
 	<div class="event">
 		<div class="event-left">
-			<img src="<?php echo base_path().$directory."/images/event.png";?>" width="100%"/>
+			<img src="<?php echo base_path().$directory."/images/event.PNG";?>" width="100%"/>
 		</div>
 		<div class="event-right">
 			<?php print render($content);?>
@@ -16,7 +16,10 @@
 			<h2 class="form-title">Enter your details</h2>
 		</div>
 		<div class="drupal-form">
-			<?php print render(drupal_get_form('attend_event_form'));?>
+			<?php
+			$form = drupal_get_form('attend_event_form');
+			print render($form);
+			?>
 		</div>
 	</div>
 </div>
