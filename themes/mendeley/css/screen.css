@@ -1107,6 +1107,26 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
 	font-size:13px;
 }
 /*-----------Attend Event----by Ankita------*/
+/*-----------Home page banner----by Ankita------*/
+.container .persona-tile{
+	float:right;
+}
+.container .persona-tile .persona-img{
+	width:145px;
+}
+.container .persona-tile .persona-details{
+	position:relative;
+}
+.container .persona-tile .persona-details .persona-title{
+	left: 45px;position: absolute;top: -30px;font-size:12px;font-weight:bold;
+}
+.container .persona-tile .persona-details .persona-title a{
+	text-decoration:none;color:#fff;
+}
+.container .persona-tile .persona-details .persona-sub-copy{
+	font-size: 11px;left: 45px;position: absolute;top: -10px;width: 130px;
+}
+/*-----------Home page banner----by Ankita------*/
 
 
 

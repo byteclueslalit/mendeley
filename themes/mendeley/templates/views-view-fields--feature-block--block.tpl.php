@@ -4,6 +4,10 @@ $field_feature_block_tile=field_get_items('node',$node,'field_feature_block_tile
 ?>
 <div class="grid_container">
 	<div class="grid">
+		<div class="grid--head">
+			<h2 class="section--title"><?php echo $node->title;?></h2>
+			<div class="section--subcopy"><?php echo $node->body['und'][0]['value'];?></div>
+		</div>
 		<div class="grid--row">
 			<?php
 			$count = 1;
