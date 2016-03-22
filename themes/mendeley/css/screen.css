@@ -1107,7 +1107,7 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
 	font-size:13px;
 }
 /*-----------Attend Event----by Ankita------*/
-/*-----------Home page banner----by Ankita------*/
+/*-----------Home page banner(Hero Story)----by Ankita------*/
 .container .persona-tile{
 	float:right;
 }
@@ -1126,7 +1126,56 @@ html[data-useragent*='MSIE 10.0'] .modal-close, html[data-useragent*='rv:11.0'] 
 .container .persona-tile .persona-details .persona-sub-copy{
 	font-size: 11px;left: 45px;position: absolute;top: -10px;width: 130px;
 }
-/*-----------Home page banner----by Ankita------*/
+/*-----------Home page banner(Hero Story)----by Ankita------*/
+/*-----------Banner(Hero A)----by Ankita------*/
+.section .hero-component{
+	height:200px;width:180px;background:#000;position:absolute;top:480px;left:620px;
+}
+.section .hero-component .hero-component-details{
+	padding:15px;
+}
+.section .hero-component .hero-component-details .hero-component-title{
+	font-size: 17px;font-weight: bold;line-height: 20px;
+}
+.section .hero-component .hero-component-details .hero-component-subcopy{
+	margin:10px 0;font-size: 12px;height: 120px;overflow:hidden;
+}
+/*-----------Banner(Hero A)----by Ankita------*/
+/*-----------Event listing page----by Ankita------*/
+.upcoming{
+	margin-bottom: 65px;
+}	
+.upcoming .section--subcopy{
+	padding: 10px 100px;width: 725px;
+}
+.browse-events{
+	text-align:center;
+}
+.browse-events .browse-title{
+	font-size:20px;font-weight:bold;
+}
+.browse-events .browse-form{
+	margin:20px 245px;;
+}
+.browse-events .browse-form select,.browse-events .browse-form input[type="text"]{
+	border-bottom:1px solid #D2D2D2;
+	background:url('../images/iconset/down-arrow.PNG') no-repeat right;
+	padding-right:20px;
+	margin-right:10px;
+	float:left;
+}
+.browse-events .browse-form input[type="text"]{
+	width:95px;
+	padding: 3px 0;
+}
+.browse-events .browse-form input[type="submit"]{
+	border: 2px solid #007498;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 4px;
+}
+/*-----------Event listing page----by Ankita------*/
 
 
 

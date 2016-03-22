@@ -23,10 +23,7 @@ stylesheets[all][] = css/vendor/owl.theme.default.min.css
 
 
 scripts[] = scripts/vendor/jquery.min.js
-
 scripts[] = scripts/vendor/owl.carousel.min.js
-
 scripts[] = scripts/main.js
-
 scripts[] = scripts/vendor/hotjar.js
 
